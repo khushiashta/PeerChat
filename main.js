@@ -51,7 +51,7 @@ let init = async () => {
     localStream = await navigator.mediaDevices.getUserMedia(constraints)
     document.getElementById('user-1').srcObject = localStream
 }
- 
+
 
 let handleUserLeft = (MemberId) => {
     document.getElementById('user-2').style.display = 'none'
