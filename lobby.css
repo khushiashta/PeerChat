@@ -3,6 +3,23 @@ body{
     color: #fff;
 }
 
+.heading{
+  text-align: center;
+  font-size: 40px;
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.sub-Heading{
+  text-align: center;
+  font-size: 15px;
+  animation: fadeIn 4s;
+}
+
 #form-container{
     width: 90%;
     max-width: 600px;
